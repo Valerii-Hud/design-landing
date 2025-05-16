@@ -69,6 +69,14 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .hero {
+    &__down {
+      display: none;
+    }
+  }
+}
+
 @media screen and (max-width: 375px) {
   .hero {
     &__wrapper {
