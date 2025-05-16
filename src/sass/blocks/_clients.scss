@@ -1,0 +1,28 @@
+.clients {
+  padding-top: 150px;
+  background: linear-gradient(
+    0deg,
+    #040008 16%,
+    #010206 21%,
+    #040008 25%,
+    #010101 30%,
+    #010101 34%,
+    #000000 36%,
+    #010001 50%,
+    #190623 100%
+  );
+
+  &__title {
+    width: 500px;
+  }
+  &__wrapper {
+    margin-top: 100px;
+    display: flex;
+    gap: 130px;
+  }
+  &__item {
+    width: 200px;
+    min-width: 60px;
+    object-fit: cover;
+  }
+}
