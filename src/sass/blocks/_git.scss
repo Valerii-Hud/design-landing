@@ -45,3 +45,24 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .git {
+    &__title {
+      font-size: 36px;
+      line-height: 36px;
+      span {
+        font-size: 36px;
+        line-height: 36px;
+      }
+    }
+    &__subtitle {
+      line-height: 20px;
+      font-size: 20px;
+    }
+
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+}
